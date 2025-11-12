@@ -1,6 +1,6 @@
 {
   "name": "@umituz/react-native-code-editor",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Code editing and syntax highlighting for React Native apps - 25+ programming languages, code blocks, editable code input",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
@@ -48,4 +48,3 @@
     "LICENSE"
   ]
 }
-
