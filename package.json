@@ -1,0 +1,51 @@
+{
+  "name": "@umituz/react-native-code-editor",
+  "version": "1.0.0",
+  "description": "Code editing and syntax highlighting for React Native apps - 25+ programming languages, code blocks, editable code input",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "version:minor": "npm version minor -m 'chore: release v%s'",
+    "version:major": "npm version major -m 'chore: release v%s'"
+  },
+  "keywords": [
+    "react-native",
+    "code-editor",
+    "syntax-highlighting",
+    "code-block",
+    "programming-languages",
+    "developer-tools"
+  ],
+  "author": "Ümit UZ <umit@umituz.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umituz/react-native-code-editor"
+  },
+  "peerDependencies": {
+    "react": ">=18.2.0",
+    "react-native": ">=0.74.0",
+    "@umituz/react-native-design-system-theme": "latest",
+    "@umituz/react-native-icon": "latest",
+    "@umituz/react-native-clipboard": "latest",
+    "@umituz/react-native-toast": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "@types/react-native": "^0.73.0",
+    "react": "^18.2.0",
+    "react-native": "^0.74.0",
+    "typescript": "^5.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
+
