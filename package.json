@@ -1,6 +1,6 @@
 {
   "name": "@umituz/react-native-code-editor",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Code editing and syntax highlighting for React Native apps - 25+ programming languages, code blocks, editable code input",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
@@ -28,7 +28,7 @@
     "react": ">=18.2.0",
     "react-native": ">=0.74.0",
     "@umituz/react-native-design-system-theme": "latest",
-    "@umituz/react-native-icon": "latest",
+    "@umituz/react-native-design-system-atoms": "*",
     "@umituz/react-native-clipboard": "latest",
     "@umituz/react-native-toast": "latest"
   },
