@@ -139,7 +139,7 @@ export const CodeBlock: React.FC<CodeBlockProps> = ({
       {/* Header */}
       <View style={styles.header}>
         <View style={styles.languageTag}>
-          <AtomicIcon name={CodeEditorUtils.getLanguageIcon(language)} size="sm" color="textSecondary" />
+          <AtomicIcon name={CodeEditorUtils.getLanguageIcon(language)} size="sm" color="secondary" />
           <Text style={styles.languageText}>{CodeEditorUtils.getLanguageName(language)}</Text>
         </View>
 
