@@ -8,7 +8,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, type StyleProp, type ViewStyle } from 'react-native';
 import { useAppDesignTokens } from '@umituz/react-native-design-system-theme';
-import { Icon } from '@umituz/react-native-icon';
+import { AtomicIcon } from '@umituz/react-native-design-system-atoms';
 import { useClipboard } from '@umituz/react-native-clipboard';
 import { useToast } from '@umituz/react-native-toast';
 import type { ProgrammingLanguage } from '../../domain/entities/CodeEditor';
@@ -139,13 +139,13 @@ export const CodeBlock: React.FC<CodeBlockProps> = ({
       {/* Header */}
       <View style={styles.header}>
         <View style={styles.languageTag}>
-          <Icon name={CodeEditorUtils.getLanguageIcon(language)} size="sm" color="textSecondary" />
+          <AtomicIcon name={CodeEditorUtils.getLanguageIcon(language)} size="sm" color="textSecondary" />
           <Text style={styles.languageText}>{CodeEditorUtils.getLanguageName(language)}</Text>
         </View>
 
         {showCopyButton && (
           <TouchableOpacity style={styles.copyButton} onPress={handleCopy} activeOpacity={0.7}>
-            <Icon name="Copy" size="sm" color="primary" />
+            <AtomicIcon name="Copy" size="sm" color="primary" />
             <Text style={styles.copyText}>Copy</Text>
           </TouchableOpacity>
         )}
