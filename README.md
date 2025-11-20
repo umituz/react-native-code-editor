@@ -23,7 +23,7 @@ npm install @umituz/react-native-code-editor
 ## Peer Dependencies
 
 ```bash
-npm install @umituz/react-native-design-system-theme @umituz/react-native-icon @umituz/react-native-clipboard @umituz/react-native-toast
+npm install @umituz/react-native-design-system-theme @umituz/react-native-clipboard @umituz/react-native-toast
 ```
 
 ## Usage
